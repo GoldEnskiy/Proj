@@ -7,7 +7,6 @@ def two_sum(nums: int, target: int) -> int:
         Указатели проходятся по списку с двух сторон.
 
         Если target меньше current_sum - сдвигается правый указатель к левому. Что-бы current_sum уменьшалась.
-        
         Если target больше current_sum - сдвигается левый указатель к правому. Что-бы current_sum увеличивалась.
 
         """
@@ -24,4 +23,4 @@ def two_sum(nums: int, target: int) -> int:
         
     return [] # Если нету суммы равной target
 
-print(two_sum([1, 2, 3, 4], 7))
+print(two_sum([1, 5, 2, 4, 3], 9))

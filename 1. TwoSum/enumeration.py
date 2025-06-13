@@ -1,4 +1,4 @@
-def twoSum(nums: int, target: int) -> int:
+def two_sum(nums: int, target: int) -> int:
     for i in range(len(nums)): #Внешний цикл
         for j in range(len(nums)): #Внутренний цикл
             print(nums[i], ':', nums[j], nums[i]+nums[j]==target) #Для понятия, как циклы двигаются
@@ -12,4 +12,4 @@ def twoSum(nums: int, target: int) -> int:
             
     return False # Возвращает False, если ни одна сумма чисел не возрвщает target число.
 
-print(twoSum([1, 2, 3, 4], 7))
+print(two_sum([1, 2, 3, 4], 7))
